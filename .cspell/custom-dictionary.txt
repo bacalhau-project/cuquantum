@@ -1,0 +1,16 @@
+ansatz
+bacalhau
+cuquantum
+eigenstates
+Expec
+Farhi
+ipynb
+maxcut
+nvcr
+qaoa
+QAOA
+qinfo
+qubit
+qubits
+slove
+ubud

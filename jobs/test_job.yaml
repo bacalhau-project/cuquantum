@@ -1,0 +1,19 @@
+Name: gpu-test-job
+Type: batch
+Count: 1
+Tasks:
+  - Engine:
+      Type: docker
+      Params:
+        Image: "nvidia/cuda:11.6.2-base-ubuntu20.04"
+      Entrypoint:
+        - /bin/bash
+      Parameters:
+        - -c
+        - nvidia-smi && echo 'GPU is working!'
+    Name: TestGPU
+    ResourcesConfig: 
+      CPU: "1"
+      Memory: "1GB"
+      Disk: "10GB"
+      GPU: "1"

@@ -1,0 +1,7 @@
+protobuf>=3.20.2,<=3.20.3
+paddlepaddle==2.6.2
+paddle-quantum
+numpy
+matplotlib
+networkx
+openfermion==1.5.1 

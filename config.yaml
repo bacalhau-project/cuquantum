@@ -1,0 +1,12 @@
+
+NameProvider: "uuid"
+API:
+  Port: 1234
+Compute:
+  Enabled: true
+  Orchestrators:
+    - nats://81146aa0-a819-45d8-bbf8-47be27903d4d.us1.cloud.expanso.io:4222
+  Auth:
+    Token: "VPA2dGqkkJEVUrGkX5unQ4ShWDu5sbGfk2MvAfML6jxnC93iNZCMRaZxeNq2pxJr"
+  TLS:
+    RequireTLS: true

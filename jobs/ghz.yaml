@@ -1,0 +1,15 @@
+Tasks:
+  - Engine:
+      Params:
+        Image: nvcr.io/nvidia/cuquantum-appliance:24.11-x86_64
+        WorkingDirectory: ""
+      Type: docker
+      Parameters:
+        - python
+        - /home/cuquantum/examples/ghz.py
+    Name: GHZ
+    Timeouts: {}
+    ResourcesConfig:
+      GPU: "1"
+Type: batch
+Count: 1
