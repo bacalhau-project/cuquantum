@@ -5,14 +5,19 @@ Tasks:
           Type: localDirectory
           Params:
             SourcePath: /job_data
-        Target: /job_data
+            ReadWrite: true
+        Target: /job_data_target
     Publisher:
       Type: local
     Engine:
       Type: docker
       Params:
-        Image: ghcr.io/bacalhau-project/python-runner:latest
-        EnvironmentVariables:
-          - SCRIPT="{{.script}}"
+        Image: "ubuntu:latest"
+        Entrypoint:
+          - /bin/bash
+        Parameters:
+          - "-c"
+          - |
+            ls -l /job_data_target/
 Type: batch
 Count: 1

@@ -91,6 +91,7 @@
 # display(HTML("<style>pre { white-space: pre !important; }</style>"))
 # In[2]:
 # Import related modules from Paddle Quantum and PaddlePaddle
+import os
 import warnings
 
 import matplotlib
@@ -111,6 +112,11 @@ warnings.filterwarnings("ignore")
 
 matplotlib.use("Agg")
 
+# If there is a DATA_PATH environment variable, use it as the data directory
+if "DATA_PATH" in os.environ:
+    DATA_PATH = os.environ["DATA_PATH"]
+else:
+    DATA_PATH = "./"
 
 # Next, we generate the graph $G$ in the Max-Cut Problem. For the convenience of computation, the vertices here are labeled starting from $0$.
 
@@ -140,7 +146,7 @@ ax = plt.gca()
 ax.margins(0.20)
 plt.axis("off")
 plt.show()
-plt.savefig("maxcut-fig-maxcut_g.png")
+plt.savefig(os.path.join(DATA_PATH, "maxcut-fig-maxcut_g.png"))
 
 # ### Encoding Hamiltonian
 #
@@ -325,7 +331,7 @@ ax = plt.gca()
 ax.margins(0.20)
 plt.axis("off")
 plt.show()
-plt.savefig("maxcut-fig-maxcut_cut.png")
+plt.savefig(os.path.join(DATA_PATH, "maxcut-fig-maxcut_cut.png"))
 plt.close()
 
 # As you can see, in this example, QAOA has found a maximum cut on the graph.

@@ -1,0 +1,110 @@
+2025-03-12 16:27:52,699 - root - INFO - Starting sensor simulator
+2025-03-12 16:27:52,699 - root - INFO - Starting sensor simulator for 3600 seconds
+2025-03-12 16:27:52,699 - root - INFO - Generating 1 readings per second
+2025-03-12 16:27:52,700 - root - INFO - Monitoring server started on http://0.0.0.0:8080
+2025-03-12 16:27:52,707 - root - INFO - Started noise anomaly
+2025-03-12 16:27:54,709 - root - INFO - Started spike anomaly
+2025-03-12 16:28:42,905 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.45ms/reading)
+2025-03-12 16:28:52,951 - root - INFO - Started pattern anomaly
+2025-03-12 16:28:54,966 - root - INFO - Ended spike anomaly
+2025-03-12 16:29:46,867 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.54ms/reading)
+2025-03-12 16:29:49,889 - root - INFO - Generated 100 readings
+2025-03-12 16:30:39,445 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.57ms/reading)
+2025-03-12 16:30:59,586 - root - INFO - Started trend anomaly
+2025-03-12 16:36:00,406 - root - INFO - Ended trend anomaly
+2025-03-12 16:36:12,494 - root - INFO - Batch insert performance: 5 readings in 0.002s (0.57ms/reading)
+2025-03-12 16:36:16,523 - root - INFO - Generated 200 readings
+2025-03-12 16:37:57,354 - root - INFO - Batch insert performance: 5 readings in 0.004s (0.60ms/reading)
+2025-03-12 16:40:06,709 - root - INFO - Ended pattern anomaly
+2025-03-12 16:40:06,711 - root - INFO - Ended noise anomaly
+2025-03-12 16:40:36,899 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.59ms/reading)
+2025-03-12 16:40:40,929 - root - INFO - Generated 300 readings
+2025-03-12 16:56:24,918 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.58ms/reading)
+2025-03-12 16:56:47,054 - root - INFO - Started missing_data anomaly
+2025-03-12 16:56:47,054 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:56:48,066 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:56:49,072 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:56:50,080 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:56:51,085 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:56:52,090 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:56:53,101 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:56:54,108 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:56:55,119 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:56:56,127 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:56:57,136 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:56:58,140 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:56:59,143 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:00,152 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:01,154 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:02,158 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:03,163 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:04,169 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:05,173 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:06,184 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:07,192 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:08,201 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:09,206 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:10,209 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:11,220 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:12,231 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:13,237 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:14,243 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:15,245 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:16,257 - root - INFO - Missing data anomaly - skipping database insert
+2025-03-12 16:57:17,259 - root - INFO - Ended missing_data anomaly
+2025-03-12 16:57:42,434 - root - INFO - Batch insert performance: 5 readings in 0.005s (0.60ms/reading)
+2025-03-12 16:57:49,465 - root - INFO - Generated 400 readings
+2025-03-12 16:58:32,751 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.59ms/reading)
+2025-03-12 16:59:23,048 - root - INFO - Batch insert performance: 5 readings in 0.002s (0.60ms/reading)
+2025-03-12 16:59:30,075 - root - INFO - Generated 500 readings
+2025-03-12 17:02:08,332 - root - INFO - Batch insert performance: 5 readings in 0.002s (0.59ms/reading)
+2025-03-12 17:02:58,636 - root - INFO - Batch insert performance: 5 readings in 0.002s (0.59ms/reading)
+2025-03-12 17:03:09,689 - root - INFO - Generated 600 readings
+2025-03-12 17:03:48,941 - root - INFO - Batch insert performance: 5 readings in 0.002s (0.58ms/reading)
+2025-03-12 17:04:39,257 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.58ms/reading)
+2025-03-12 17:04:50,334 - root - INFO - Generated 700 readings
+2025-03-12 17:05:29,554 - root - INFO - Batch insert performance: 5 readings in 0.004s (0.59ms/reading)
+2025-03-12 17:06:19,816 - root - INFO - Batch insert performance: 5 readings in 0.005s (0.60ms/reading)
+2025-03-12 17:06:30,875 - root - INFO - Generated 800 readings
+2025-03-12 17:07:10,081 - root - INFO - Batch insert performance: 5 readings in 0.002s (0.59ms/reading)
+2025-03-12 17:08:00,390 - root - INFO - Batch insert performance: 5 readings in 0.004s (0.60ms/reading)
+2025-03-12 17:08:11,450 - root - INFO - Generated 900 readings
+2025-03-12 17:08:50,633 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.59ms/reading)
+2025-03-12 17:09:40,943 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.59ms/reading)
+2025-03-12 17:09:52,002 - root - INFO - Generated 1000 readings
+2025-03-12 17:10:31,207 - root - INFO - Batch insert performance: 5 readings in 0.005s (0.60ms/reading)
+2025-03-12 17:11:21,497 - root - INFO - Batch insert performance: 5 readings in 0.004s (0.60ms/reading)
+2025-03-12 17:11:32,541 - root - INFO - Generated 1100 readings
+2025-03-12 17:12:11,727 - root - INFO - Batch insert performance: 5 readings in 0.004s (0.61ms/reading)
+2025-03-12 17:13:01,961 - root - INFO - Batch insert performance: 5 readings in 0.002s (0.61ms/reading)
+2025-03-12 17:13:13,014 - root - INFO - Generated 1200 readings
+2025-03-12 17:13:52,247 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.61ms/reading)
+2025-03-12 17:14:42,477 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.61ms/reading)
+2025-03-12 17:14:53,525 - root - INFO - Generated 1300 readings
+2025-03-12 17:15:32,749 - root - INFO - Batch insert performance: 5 readings in 0.004s (0.62ms/reading)
+2025-03-12 17:16:23,011 - root - INFO - Batch insert performance: 5 readings in 0.002s (0.62ms/reading)
+2025-03-12 17:16:34,053 - root - INFO - Generated 1400 readings
+2025-03-12 17:17:13,254 - root - INFO - Batch insert performance: 5 readings in 0.006s (0.62ms/reading)
+2025-03-12 17:18:03,498 - root - INFO - Batch insert performance: 5 readings in 0.005s (0.62ms/reading)
+2025-03-12 17:18:14,546 - root - INFO - Generated 1500 readings
+2025-03-12 17:18:53,738 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.62ms/reading)
+2025-03-12 17:19:43,970 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.63ms/reading)
+2025-03-12 17:19:55,014 - root - INFO - Generated 1600 readings
+2025-03-12 17:20:34,210 - root - INFO - Batch insert performance: 5 readings in 0.004s (0.62ms/reading)
+2025-03-12 17:21:24,504 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.62ms/reading)
+2025-03-12 17:21:35,577 - root - INFO - Generated 1700 readings
+2025-03-12 17:22:14,777 - root - INFO - Batch insert performance: 5 readings in 0.002s (0.62ms/reading)
+2025-03-12 17:23:05,009 - root - INFO - Batch insert performance: 5 readings in 0.004s (0.62ms/reading)
+2025-03-12 17:23:16,046 - root - INFO - Generated 1800 readings
+2025-03-12 17:23:55,238 - root - INFO - Batch insert performance: 5 readings in 0.005s (0.62ms/reading)
+2025-03-12 17:24:45,515 - root - INFO - Batch insert performance: 5 readings in 0.003s (0.62ms/reading)
+2025-03-12 17:24:56,566 - root - INFO - Generated 1900 readings
+2025-03-12 17:25:35,769 - root - INFO - Batch insert performance: 5 readings in 0.004s (0.62ms/reading)
+2025-03-12 17:26:26,029 - root - INFO - Batch insert performance: 5 readings in 0.004s (0.62ms/reading)
+2025-03-12 17:26:37,072 - root - INFO - Generated 2000 readings
+2025-03-12 17:27:16,291 - root - INFO - Batch insert performance: 5 readings in 0.002s (0.62ms/reading)
+2025-03-12 17:27:53,507 - root - INFO - Simulation complete after 3600.81 seconds
+2025-03-12 17:27:53,940 - root - INFO - Monitoring server stopped
+2025-03-12 17:27:53,941 - root - INFO - Stopped configuration file watcher
+2025-03-12 17:27:53,942 - root - INFO - Database connection closed
+2025-03-12 17:27:53,942 - root - INFO - Simulation ended. Generated 2075 readings with 0 errors (100.00% success rate). Memory usage: 44.89 MB (peak: 44.89 MB, initial: 41.57 MB)

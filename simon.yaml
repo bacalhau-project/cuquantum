@@ -4,10 +4,8 @@ Tasks:
       - Source:
           Type: localDirectory
           Params:
-            SourcePath: /job_data
+            SourcePath: /bacalhau_data
         Target: /job_data
-    Publisher:
-      Type: local
     Engine:
       Type: docker
       Params:

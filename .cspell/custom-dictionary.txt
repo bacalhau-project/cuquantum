@@ -1,9 +1,12 @@
 ansatz
 bacalhau
+bacalhauproject
 cuquantum
 eigenstates
 Expec
 Farhi
+fulltext
+ghrc
 ipynb
 maxcut
 nvcr
