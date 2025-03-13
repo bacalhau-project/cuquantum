@@ -53,7 +53,7 @@ class Simon(Benchmark):
 
     find the n-bit string s.
 
-    A classical algorithm requires O(2^n/2) queries to find s, while Simon’s
+    A classical algorithm requires O(2^n/2) queries to find s, while Simon's
     algorithm needs only O(n) quantum queries.
 
     === REFERENCE ===
@@ -188,13 +188,41 @@ def main():
     measure = os.getenv("MEASURE", "true").lower() == "true"  # Default to True
     seed = int(os.getenv("SEED", 1234))  # Default seed
 
-    # Set the seed
-    reseed(seed)
+    # Create output directory if it doesn't exist
+    os.makedirs("job_data", exist_ok=True)
+
+    # Create output filename based on parameters
+    output_file = f"job_data/nq{nqubits}_m{measure}_s{seed}.txt"
+
+    # Redirect stdout to both console and file
+    import sys
+
+    class Logger:
+        def __init__(self, filename):
+            self.terminal = sys.stdout
+            self.log = open(filename, "w")
+
+        def write(self, message):
+            self.terminal.write(message)
+            self.log.write(message)
+
+        def flush(self):
+            self.terminal.flush()
+            self.log.flush()
+
+    sys.stdout = Logger(output_file)
 
     # Configuration dictionary
     config = {
         "measure": measure,
     }
+
+    # Print parameters for reference
+    print("Running Simon's algorithm with parameters:")
+    print(f"Number of qubits: {nqubits}")
+    print(f"Measure: {measure}")
+    print(f"Seed: {seed}")
+    print("-" * 50)
 
     # Generate the gates sequence
     try:
@@ -210,6 +238,9 @@ def main():
     results = np.random.randint(2, size=(nqubits, nqubits))
     post_process_success = Simon.postProcess(nqubits, results)
     print(f"Post-processing successful: {post_process_success}")
+
+    # Restore stdout
+    sys.stdout = sys.stdout.terminal
 
 
 if __name__ == "__main__":

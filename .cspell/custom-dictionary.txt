@@ -9,6 +9,7 @@ fulltext
 ghrc
 ipynb
 maxcut
+nqubits
 nvcr
 qaoa
 QAOA

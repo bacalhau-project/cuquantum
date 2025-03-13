@@ -12,5 +12,11 @@ Tasks:
         Image: ghcr.io/bacalhau-project/python-runner:latest
         EnvironmentVariables:
           - SCRIPT="{{.script}}"
+          - NQUBITS="{{.nq}}"
+          - MEASURE="{{.measure}}"
+          - SEED="{{.seed}}"
+    Timeouts:
+      ExecutionTimeout: 600
+      QueueTimeout: 600
 Type: batch
 Count: 1
